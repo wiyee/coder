@@ -11,10 +11,7 @@ public class T35 {
             return 0;
         int[] chars = new int[100];
         int result = 0;
-        char letter;
         for (int i = 0; i < str.length(); i++) {
-            System.out.print(str.charAt(i) + ":");
-            System.out.println(str.charAt(i) - 64);
             chars[str.charAt(i) - 64]++;
 
         }
