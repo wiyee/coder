@@ -3,9 +3,6 @@ package newcoder;
 import java.util.ArrayList;
 import java.util.List;
 
-/**
- * Created by wiyee on 2018/3/3.
- */
 public class Tree {
     private Node root;
     private List<Node> list=new ArrayList<Node>();

@@ -24,18 +24,19 @@ public class PositiveIntegerPair {
      * 例子说明1:
      * 满足条件的数对有(2,3),(2,4),(2,5),(3,4),(3,5),(4,5),(5,3)
      */
-    private static void main(String[] args) {
+
+    public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         while (scanner.hasNext()) {
             int n = scanner.nextInt();
             int m = scanner.nextInt();
             if (n <= m) {
-                return;
+                continue;
             }
             if (m == 0) {
                 long tmp = n;
                 System.out.println(tmp * tmp);
-                return;
+                continue;
             }
 
             long result = 0;

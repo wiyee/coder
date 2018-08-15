@@ -32,6 +32,7 @@ public class HeapSort {
                 int temp = a[0];
                 a[0] = a[i];
                 a[i] = temp;
+                System.out.println(i);
                 adjustHeap(a, 0, i - 1);// 将a中前i-1个记录重新调整为大顶堆
         }
     }

@@ -26,7 +26,7 @@ import java.util.Scanner;
 public class Chorus {
 
     /**
-     * // 回溯法只通过了40%
+     * // 回溯法只通过了60%
      * public static int min = Integer.MAX_VALUE;
      * public static void main(String[] args) {
      * Scanner scanner = new Scanner(System.in);
